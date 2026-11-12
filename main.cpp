@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
+int Policz(int a, int b) {
+    return a + b;
+}
+
 int main() {
 
-    const auto lang = "C++";
-    cout << "Hello and welcome to " << lang << "!\n";
-
-    for (int i = 1; i <= 5; i++) {
-        cout << "i = " << i << endl;
-    }
+    cout << "Hello, World!" << endl;
+    cout << "W pierwszym branchu, 2 + 3 = "<< Policz(2, 3) << endl;
 
     return 0;
 }
